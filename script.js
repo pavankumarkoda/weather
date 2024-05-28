@@ -197,7 +197,3 @@ function displayError(message){
     card.style.display="flex";
     card.appendChild(errorDisplay);
 }
-
-document.addEventListener('contextmenu', function(event) {
-    // Prevent default behavior of the context menu
-    event.preventDefault();
